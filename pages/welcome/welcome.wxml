@@ -1,0 +1,14 @@
+<!--wxml是编写小程序骨架的文件-->
+<!--<div>和和<view>道理是一样的-->
+<!--按钮不好控制，view和text代替-->
+<!--text>的特性\n等转义序列的解析支持，解析成换行-->
+<!--text>的文字可以在手机上长按选中-->
+<view class="container">
+    <image class="user-avatar" src="/images/headpic.jpg"></image>
+    <text class="user-name">
+        <text style="color:red">Hello</text>,shirley
+    </text>
+    <view class="moto-container">
+        <text class="moto">开启小程序之旅</text>
+    </view>
+</view>
