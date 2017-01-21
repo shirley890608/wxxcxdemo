@@ -23,9 +23,11 @@ navigationBarBackgroundColor改变背景颜色
 text{
     font-family: Microsoft Yahei;
 }
+
 image{
     border-radius: 50px;
 }
+
 .container{
     display: flex; 
     flex-direction: column;
@@ -56,7 +58,7 @@ image{
     height: 80rpx;
     border-radius: 5px;
     text-align: center;
-    line-height: 80rpx;
+    line-height: 70rpx;
     color:#405f80;
 }
 

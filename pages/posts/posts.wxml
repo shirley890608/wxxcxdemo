@@ -1,0 +1,49 @@
+<!--pages/posts/posts.wxml swiper vertical="true"纵向滚动
+文章列表：构建静态样式，从整体上设计一个效果图
+元素构成：作者头像信息、文章发表时间时间 文章导图 文章概要和介绍 文章的收藏数和评论数
+2张图片图片 2个文本 
+布局方式：以行为单位呈垂直分布
+-->
+<view>
+    <!--轮播图-->
+    <swiper indicator-dots="true" autoplay="true" interval="5000">
+      <swiper-item>
+          <image src="/images/1.jpg"></image>
+      </swiper-item>
+
+      <swiper-item>
+        <image src="/images/5.jpg"></image>
+      </swiper-item>
+
+      <swiper-item>
+        <image src="/images/6.jpg"></image>
+      </swiper-item>
+    </swiper>
+
+    <!--文章列表-->
+    <view class="post-container">
+        <!--头像信息行-->
+        <view class="post-author-date">
+          <image class="post-author" src="/images/touxiang.png"></image>
+          <text class="post-date">
+            NOW 25 2016
+          </text>
+        </view>
+
+        <!--文章标题's-->
+        <text class="post-title">火星网校介绍</text>
+
+        <!--文章导图-->
+        <image src="/images/8.jpg"></image>
+
+        <!--文章介绍和概要-->
+        <text>文章介绍和概要文章介绍和概要文章介绍和概要文章介绍和概要</text>
+
+        <view>
+          <image src="../../images/shoucang.png"></image>
+          <text>92</text>
+          <image src="../../images/view.png"></image>
+          <text>65</text>
+        </view>
+    </view>
+</view>
